@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ForkliftXR",
+			"Path": "..\\Source\\ForkliftXR.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ForkliftXREditor",
+			"Path": "..\\Source\\ForkliftXREditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

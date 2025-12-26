@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2443B4EF-4EB8-8351-B3B4-089F1ACCF981}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ForkliftXR",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OculusXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			],
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba"
+		}
+	],
+	"TargetPlatforms": [
+		"Android"
+	]
+}

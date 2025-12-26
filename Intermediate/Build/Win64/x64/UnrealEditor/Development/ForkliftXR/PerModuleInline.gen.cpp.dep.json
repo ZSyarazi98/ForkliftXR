@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal project\\forkliftxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\forkliftxr\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealenginemeta\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\unreal project\\forkliftxr\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\forkliftxr\\definitions.forkliftxr.h",
+            "d:\\unrealenginemeta\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

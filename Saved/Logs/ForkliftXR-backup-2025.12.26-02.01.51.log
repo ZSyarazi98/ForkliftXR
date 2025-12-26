@@ -1,0 +1,1953 @@
+﻿Log file open, 12/26/25 09:57:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: ForkliftXR
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="oculus-5.6.0-release-1.113.0-v81.0-CL-0"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.0-0+oculus-5.6.0-release-1.113.0-v81.0"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.6584] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900K"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "D:/Unreal Project/ForkliftXR/ForkliftXR.uproject"""
+LogCsvProfiler: Display: Metadata set : loginid="c4234d5f4fd028b4f81971a63de37ee9"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.388963
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-237649DF4C51331CE4B1E4BD4496BC8D
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../Unreal Project/ForkliftXR/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../Unreal Project/ForkliftXR/Binaries/Win64/*.target
+LogAssetRegistry: Display: PlatformFileJournal is not available on volume 'D:' of project directory 'D:/Unreal Project/ForkliftXR/', so AssetDiscovery cache will not be read or written. Unavailability reason:
+	NTFS Journal is not active for volume 'D:'. Launch cmd.exe as admin and run command `fsutil usn createJournal D: m=<SizeInBytes>`. Recommended <SizeInBytes> is 0x40000000 (1GB).
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading IOS ini files took 0.05 seconds
+LogConfig: Display: Loading Android ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.06 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../Unreal Project/ForkliftXR/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosInsights
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin IoStoreInsights
+LogPluginManager: Mounting Engine plugin MassInsights
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NamingTokens
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin ProjectLauncher
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorDataStorageFeatures
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryDataflow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin LevelSequenceNavigatorBridge
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin RuntimeTelemetry
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin SequenceNavigator
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Cascade
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin CameraCalibrationCore
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin GameplayInsights
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin TweeningUtils
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin PropertyBindingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin OpenXR
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin XRBase
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin OculusXR
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin CompositeCore
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin XInputDevice
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogStudioTelemetry: Started StudioTelemetry Session
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSShared: Loaded "D:/UnrealEngineMeta/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+LogEOSShared: FEOSSDKManager::Initialize Initializing EOSSDK Version:1.17.0-41373641
+LogInit: Using libcurl 8.12.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 256 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogOVRPlugin: Display: CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x50)
+LogOVRPlugin: Display: Support Non-Oculus runtime: NO
+LogOVRPlugin: Display: Use Alpha Blend Factors: NO
+LogOVRPlugin: Display: RetryHMDConnection: NO
+LogOVRPlugin: Display:  -- Set xrGetInstanceProcAddr to OpenXR Loader
+LogOVRPlugin: Display: Available Extensions: (85)
+LogOVRPlugin: Display:  Name=XR_KHR_D3D11_enable SpecVersion=10
+LogOVRPlugin: Display:  Name=XR_KHR_D3D12_enable SpecVersion=10
+LogOVRPlugin: Display:  Name=XR_KHR_opengl_enable SpecVersion=11
+LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable SpecVersion=9
+LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable2 SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_depth SpecVersion=6
+LogOVRPlugin: Display:  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_KHR_convert_timespec_time SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cube SpecVersion=8
+LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_equirect SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_KHR_visibility_mask SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+LogOVRPlugin: Display:  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_debug_utils SpecVersion=5
+LogOVRPlugin: Display:  Name=XR_OCULUS_recenter_event SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_OCULUS_audio_device_guid SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_color_space SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_FB_display_refresh_rate SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_performance_metrics SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_META_headset_id SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_OCULUS_ovrsession_handle SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_hand_interaction SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking SpecVersion=4
+LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_aim SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking_data_source SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_hand_tracking_microgestures SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXTX2_stationary_reference_space SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_body_tracking SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_body_tracking_full_body SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_body_tracking_fidelity SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_body_tracking_calibration SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_passthrough SpecVersion=4
+LogOVRPlugin: Display:  Name=XR_META_passthrough_layer_resumed_event SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_triangle_mesh SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_META_passthrough_color_lut SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_passthrough_preferences SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_render_model SpecVersion=4
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_container SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_FB_scene SpecVersion=4
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_query SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_user SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage_batch SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_sharing SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_persistence SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_discovery SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_group_sharing SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_mesh SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_room_mesh SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_spatial_entity_sharing SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_METAX1_spatial_entity_marker SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_entity SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_anchor SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence_operations SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_plane_tracking SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_spatial_marker_tracking SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_boundary_visibility SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_colocation_discovery SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_METAX1_dynamic_object_tracker SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_dynamic_object_tracker SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_dynamic_object_keyboard SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_environment_depth SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_environment_raycast SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_virtual_keyboard SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_local_floor SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_active_action_set_priority SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_future SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_haptic_pcm SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_touch_controller_pro SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_touch_controller_plus SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FB_touch_controller_proximity SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_OCULUS_external_camera SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_META_detached_controllers SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_FBX1_touch_controller_extras SpecVersion=1
+LogOVRPlugin: Display:  Name=XR_EXT_palm_pose SpecVersion=3
+LogOVRPlugin: Display:  Name=XR_EXT_eye_gaze_interaction SpecVersion=2
+LogOVRPlugin: Display:  Name=XR_EXTX1_haptic_parametric SpecVersion=1
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_performance_settings
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_configuration
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_vulkan
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_composition_layer_image_layout
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_common_events
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_keyboard_tracking
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_hand_joints_motion_range
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_hand_tracking_wide_motion_mode
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking2
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_face_tracking_visemes
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_eye_tracking_social
+LogOVRPlugin: Display: Unavailable OpenXR extension: XR_MSFT_hand_interaction
+LogOVRPlugin: Display: Available Layers: (0)
+LogOVRPlugin: Display: Preinitialize: xrCreateInstance() succeeded
+LogOVRPlugin: Display: OpenXR runtime name: Oculus, version 1.115.0
+LogOVRPlugin: Display: OpenXR runtime supports XR_META_headset_id extension
+LogOVRPlugin: Display: xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed
+LogHMD: Failed initializing OVRPlugin 1.113.0
+LogOcInput: OculusXRInput pre-init called
+LogSoftwareOcclusion: Display: StartupModule: OculusXRSoftwareOcclusion
+LogOculusXRTelemetry: Starting Meta XR Telemetry Module.
+LogOculusXRTelemetry: EngineTelemetry -- Binding Functions
+LogOculusXRTelemetry:  engineTelemetry_Init [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_ShutDown [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SendEvent [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SendUnifiedEvent [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_AddCustomMetadata [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SetDeveloperTelemetryConsent [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SaveUnifiedConsent [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SaveUnifiedConsentWithOlderVersion [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_GetUnifiedConsent [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_GetConsentTitle [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_GetConsentMarkdownText [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_GetConsentNotificationMarkdownText [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_ShouldShowTelemetryConsentWindow [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_ShouldShowTelemetryNotification [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_SetNotificationShown [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_GetConsentSettingsChangeText [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_IsConsentSettingsChangeEnabled [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplMarkerStart [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplMarkerEnd [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplMarkerPoint [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplMarkerPointCached [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplMarkerAnnotation [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplCreateMarkerHandle [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplDestroyMarkerHandle [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_OnEditorShutdown [SUCCESS]
+LogOculusXRTelemetry:  engineTelemetry_QplSetConsent [SUCCESS]
+LogOculusXRTelemetry: EngineTelemetry initialized successfully
+LogConfig: Applying CVar settings from Section [/Script/CompositeCore.CompositeCorePluginSettings] File [Engine]
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: oculus-5.6.0-release-1.113.0-v81.0-CL-0
+LogInit: Platform=WindowsEditor
+LogInit: MachineId=c4234d5f4fd028b4f81971a63de37ee9
+LogInit: DeviceId=
+LogInit: Engine Version: 5.6.0-0+oculus-5.6.0-release-1.113.0-v81.0
+LogInit: Compatible Engine Version: 5.6.0-0+oculus-5.6.0-release-1.113.0-v81.0
+LogInit: Net CL: 0
+LogInit: OS: Windows 11 (24H2) [10.0.26100.6584] (), CPU: Intel(R) Core(TM) i9-14900K, GPU: Intel(R) UHD Graphics 770
+LogInit: Compiled (64-bit): Dec 18 2025 16:08:36
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33145.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: oculus-5.6.0-release-1.113.0-v81.0
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UnrealEngineMeta/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 37
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 207
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 11
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 121
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 56
+LogDevObjectVersion:   UE5-SpecialProject (59DA5D52-1232-4948-B878-597870B8E98B): 9
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   LensFileVersion (8652A554-966A-466C-9FD7-1C6DD61B1ADB): 1
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - dummy variable created
+LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dummy variable created
+LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.MobileHDR:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[vr.MobileMultiView:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.Mobile.AntiAliasing:3]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.MSAACount:4]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.PostProcessing.PropagateAlpha:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.AntiAliasingMethod:3]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[r.Mobile.SupportGPUScene:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[DefaultASTCQualityBySizeHQ:4]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2025.12.26-01.57.08:697][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:AmbientSound]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Mobile.DBuffer]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2025.12.26-01.57.08:698][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2025.12.26-01.57.08:702][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1536"
+[2025.12.26-01.57.08:702][  0]LogCsvProfiler: Display: Metadata set : systemresolution.resy="864"
+[2025.12.26-01.57.08:702][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.12.26-01.57.08:702][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkylightIntensityMultiplier:1.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.MaxLightsPerTile:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LumenScene.DirectLighting.UpdateFactor:32]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.UpdateFactor:64]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:100]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.NumAdaptiveProbes:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.BentNormal:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:70]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.NumSamples:5]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:256]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:256]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.MaxSampleCount:8]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.UseExistenceMask:0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.12.26-01.57.08:703][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.12.26-01.57.08:741][  0]LogRHI: Using Default RHI: D3D12
+[2025.12.26-01.57.08:741][  0]LogRHI: Using Highest Feature Level of D3D12: SM5
+[2025.12.26-01.57.08:741][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.12.26-01.57.08:750][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.12.26-01.57.08:750][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM5 is supported by your system.
+[2025.12.26-01.57.09:165][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA RTX 4500 Ada Generation (VendorId: 10de, DeviceId: 27b1, SubSysId: 180c103c, Revision: 00a1
+[2025.12.26-01.57.09:165][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.12.26-01.57.09:165][  0]LogD3D12RHI:   Adapter has 24193MB of dedicated video memory, 0MB of dedicated system memory, and 16236MB of shared system memory, 1 output[s], UMA:false
+[2025.12.26-01.57.09:165][  0]LogD3D12RHI:   Driver Version: 580.97 (internal:32.0.15.8097, unified:580.97)
+[2025.12.26-01.57.09:165][  0]LogD3D12RHI:      Driver Date: 8-7-2025
+[2025.12.26-01.57.09:741][  0]LogD3D12RHI: Intel Extensions Framework not supported by driver. Please check if a driver update is available.
+[2025.12.26-01.57.09:777][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) UHD Graphics 770 (VendorId: 8086, DeviceId: a780, SubSysId: 895c103c, Revision: 0004
+[2025.12.26-01.57.09:777][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 unsupported
+[2025.12.26-01.57.09:777][  0]LogD3D12RHI:   Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 16236MB of shared system memory, 0 output[s], UMA:true
+[2025.12.26-01.57.09:778][  0]LogD3D12RHI:   Driver Version: 31.0.101.5522 (internal:31.0.101.5522, unified:101.5522)
+[2025.12.26-01.57.09:778][  0]LogD3D12RHI:      Driver Date: 5-12-2024
+[2025.12.26-01.57.09:825][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.12.26-01.57.09:825][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.12.26-01.57.09:825][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16236MB of shared system memory, 0 output[s], UMA:true
+[2025.12.26-01.57.11:486][  0]LogD3D12RHI: Found D3D12 adapter 3: NVIDIA RTX 4500 Ada Generation (VendorId: 10de, DeviceId: 27b1, SubSysId: 180c103c, Revision: 00a1
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI:   Max supported Feature Level 12_2, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI:   Adapter has 24193MB of dedicated video memory, 0MB of dedicated system memory, and 16236MB of shared system memory, 0 output[s], UMA:false
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI:   Driver Version: 580.97 (internal:32.0.15.8097, unified:580.97)
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI:      Driver Date: 8-7-2025
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.12.26-01.57.11:487][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.12.26-01.57.11:487][  0]LogRHI: RHI D3D12 with Feature Level SM5 is supported and will be used.
+[2025.12.26-01.57.11:487][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2025.12.26-01.57.11:487][  0]LogHAL: Display: Platform has ~ 32 GB [34050846720 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.12.26-01.57.11:487][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2025.12.26-01.57.11:487][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.12.26-01.57.11:487][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.12.26-01.57.11:487][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.12.26-01.57.11:487][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.12.26-01.57.11:489][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.12.26-01.57.11:489][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.12.26-01.57.11:489][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.12.26-01.57.11:489][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.12.26-01.57.11:489][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.12.26-01.57.11:489][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.12.26-01.57.11:489][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.12.26-01.57.11:489][  0]LogConfig: CVar [[r.CEFGPUAcceleration:1]] deferred - dummy variable created
+[2025.12.26-01.57.11:489][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Project/ForkliftXR/Saved/Config/WindowsEditor/Editor.ini]
+[2025.12.26-01.57.11:489][  0]LogInit: Computer: AC25-D164
+[2025.12.26-01.57.11:489][  0]LogInit: User: zuriroslee
+[2025.12.26-01.57.11:489][  0]LogInit: CPU Page size=4096, Cores=24
+[2025.12.26-01.57.11:489][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.12.26-01.57.11:489][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.12.26-01.57.11:489][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx) Virtual=42.7GB
+[2025.12.26-01.57.11:489][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.12.26-01.57.11:489][  0]LogMemory: Process Physical Memory: 623.23 MB used, 712.39 MB peak
+[2025.12.26-01.57.11:489][  0]LogMemory: Process Virtual Memory: 657.59 MB used, 663.57 MB peak
+[2025.12.26-01.57.11:489][  0]LogMemory: Physical Memory: 16802.46 MB used,  15670.95 MB free, 32473.42 MB total
+[2025.12.26-01.57.11:489][  0]LogMemory: Virtual Memory: 27850.08 MB used,  15887.34 MB free, 43737.42 MB total
+[2025.12.26-01.57.11:489][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.12.26-01.57.11:495][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.12.26-01.57.11:508][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.12.26-01.57.11:508][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.12.26-01.57.11:509][  0]LogInit: Using OS detected language (en-GB).
+[2025.12.26-01.57.11:509][  0]LogInit: Using OS detected locale (en-MY).
+[2025.12.26-01.57.11:514][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so 'en' will be used for the language.
+[2025.12.26-01.57.11:515][  0]LogInit: Setting process to per monitor DPI aware
+[2025.12.26-01.57.12:230][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.12.26-01.57.12:230][  0]LogWindowsTextInputMethodSystem:   - English (Malaysia) - (Keyboard).
+[2025.12.26-01.57.12:230][  0]LogWindowsTextInputMethodSystem:   - English (United Kingdom) - (Keyboard).
+[2025.12.26-01.57.12:230][  0]LogWindowsTextInputMethodSystem:   - English (Malaysia) - Touch Input Correction (TSF IME).
+[2025.12.26-01.57.12:230][  0]LogWindowsTextInputMethodSystem: Activated input method: English (Malaysia) - (Keyboard).
+[2025.12.26-01.57.12:236][  0]LogWindowsTouchpad: Display: CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+[2025.12.26-01.57.12:277][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.12.26-01.57.12:290][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.12.26-01.57.12:290][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.12.26-01.57.16:454][  0]LogOculusPluginWrapper: Warning: wrapper already initialized
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display: CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x50)
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display: Support Non-Oculus runtime: NO
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display: Use Alpha Blend Factors: NO
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display: RetryHMDConnection: NO
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display:  -- Set xrGetInstanceProcAddr to OpenXR Loader
+[2025.12.26-01.57.16:455][  0]LogOVRPlugin: Display: Warning: xrGetInstanceProcAddr has already been set
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display: Available Extensions: (85)
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D11_enable SpecVersion=10
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D12_enable SpecVersion=10
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_opengl_enable SpecVersion=11
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable SpecVersion=9
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable2 SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_depth SpecVersion=6
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_convert_timespec_time SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cube SpecVersion=8
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_equirect SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_visibility_mask SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_debug_utils SpecVersion=5
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_recenter_event SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_audio_device_guid SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_color_space SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_display_refresh_rate SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_performance_metrics SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_headset_id SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_ovrsession_handle SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_interaction SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking SpecVersion=4
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_aim SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking_data_source SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_hand_tracking_microgestures SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXTX2_stationary_reference_space SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_body_tracking SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_full_body SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_fidelity SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_calibration SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_passthrough SpecVersion=4
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_layer_resumed_event SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_triangle_mesh SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_color_lut SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_preferences SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_render_model SpecVersion=4
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_container SpecVersion=2
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_scene SpecVersion=4
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity SpecVersion=3
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_query SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_user SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage_batch SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_persistence SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_discovery SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_group_sharing SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_mesh SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_room_mesh SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_METAX1_spatial_entity_marker SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_entity SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_anchor SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence_operations SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_plane_tracking SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_marker_tracking SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_boundary_visibility SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_colocation_discovery SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_METAX1_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_keyboard SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_environment_depth SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_environment_raycast SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_META_virtual_keyboard SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_local_floor SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_active_action_set_priority SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_EXT_future SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+[2025.12.26-01.57.16:686][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_pcm SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_pro SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_META_touch_controller_plus SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_proximity SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_external_camera SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_META_detached_controllers SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_FBX1_touch_controller_extras SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_EXT_palm_pose SpecVersion=3
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_EXT_eye_gaze_interaction SpecVersion=2
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display:  Name=XR_EXTX1_haptic_parametric SpecVersion=1
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_performance_settings
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_configuration
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_vulkan
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_composition_layer_image_layout
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_common_events
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_keyboard_tracking
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_hand_joints_motion_range
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_hand_tracking_wide_motion_mode
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking2
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_face_tracking_visemes
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_eye_tracking_social
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_MSFT_hand_interaction
+[2025.12.26-01.57.16:687][  0]LogOVRPlugin: Display: Available Layers: (0)
+[2025.12.26-01.57.16:690][  0]LogOVRPlugin: Display: Preinitialize: xrCreateInstance() succeeded
+[2025.12.26-01.57.16:690][  0]LogOVRPlugin: Display: OpenXR runtime name: Oculus, version 1.115.0
+[2025.12.26-01.57.16:690][  0]LogOVRPlugin: Display: OpenXR runtime supports XR_META_headset_id extension
+[2025.12.26-01.57.16:690][  0]LogOVRPlugin: Display: xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed
+[2025.12.26-01.57.16:696][  0]LogHMD: Failed initializing OVRPlugin 1.113.0
+[2025.12.26-01.57.16:696][  0]LogHMD: OpenXRHMDModule::InitInstance using DefaultLoader.
+[2025.12.26-01.57.16:930][  0]LogHMD: OpenXR runtime supported extensions:
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_D3D11_enable
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_D3D12_enable
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_opengl_enable
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_vulkan_enable
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_vulkan_enable2
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_composition_layer_depth
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_win32_convert_performance_counter_time
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_convert_timespec_time
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_composition_layer_cube
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_composition_layer_cylinder
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_composition_layer_equirect
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_visibility_mask
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_KHR_composition_layer_color_scale_bias
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_win32_appcontainer_compatible
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_debug_utils
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_OCULUS_recenter_event
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_OCULUS_audio_device_guid
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_color_space
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_display_refresh_rate
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_performance_metrics
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_headset_id
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_OCULUS_ovrsession_handle
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_hand_interaction
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_hand_tracking
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_hand_tracking_aim
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_hand_tracking_capsules
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_hand_tracking_mesh
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_hand_tracking_data_source
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_hand_tracking_microgestures
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_simultaneous_hands_and_controllers
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXTX2_stationary_reference_space
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_body_tracking
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_body_tracking_full_body
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_body_tracking_fidelity
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_body_tracking_calibration
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_passthrough
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_passthrough_layer_resumed_event
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_triangle_mesh
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_passthrough_color_lut
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_passthrough_preferences
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_render_model
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_container
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_scene
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_storage
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_query
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_user
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_storage_batch
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_spatial_entity_sharing
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_persistence
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_discovery
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_group_sharing
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_mesh
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_room_mesh
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_spatial_entity_sharing
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_METAX1_spatial_entity_marker
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_entity
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_anchor
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_persistence
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_persistence_operations
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_plane_tracking
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_spatial_marker_tracking
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_boundary_visibility
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_colocation_discovery
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_METAX1_dynamic_object_tracker
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_dynamic_object_tracker
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_dynamic_object_keyboard
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_environment_depth
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_environment_raycast
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_virtual_keyboard
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_local_floor
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_active_action_set_priority
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_future
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_haptic_amplitude_envelope
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_haptic_pcm
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_touch_controller_pro
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_touch_controller_plus
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FB_touch_controller_proximity
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_OCULUS_external_camera
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_META_detached_controllers
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_LOGITECH_mx_ink_stylus_interaction
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_FBX1_touch_controller_extras
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_palm_pose
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXT_eye_gaze_interaction
+[2025.12.26-01.57.16:930][  0]LogHMD: 	XR_EXTX1_haptic_parametric
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_KHR_vulkan_swapchain_format_list is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_foveation_vulkan is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_composition_layer_depth_test is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_KHR_composition_layer_equirect2 is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_VARJO_quad_views is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_KHR_binding_modification is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_EPIC_view_configuration_fov is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_EXT_dpad_binding is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_foveation is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_swapchain_update_state is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_foveation_configuration is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_composition_layer_alpha_blend is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Warning: Required extension XR_FB_scene_capture is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Could not enable all required OpenXR extensions for OpenXRExtensionPlugin on current system. This plugin will be loaded but ignored, but will be enabled on a target platform that supports the required extension.
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_EXT_composition_layer_inverted_alpha is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Warning: Required extension XR_FB_face_tracking2 is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Could not enable all required OpenXR extensions for OpenXRExtensionPlugin on current system. This plugin will be loaded but ignored, but will be enabled on a target platform that supports the required extension.
+[2025.12.26-01.57.16:930][  0]LogHMD: Warning: Required extension XR_FB_eye_tracking_social is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Could not enable all required OpenXR extensions for OpenXRExtensionPlugin on current system. This plugin will be loaded but ignored, but will be enabled on a target platform that supports the required extension.
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_scene_capture is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_META_hand_tracking_wide_motion_mode is not available
+[2025.12.26-01.57.16:930][  0]LogOculusSpaceWarpExtensionPlugin: Warning: FSpaceWarpExtensionPlugin::GetRequiredExtensions
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_META_local_dimming is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_FB_composition_layer_settings is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_META_recommended_layer_resolution is not available
+[2025.12.26-01.57.16:930][  0]LogHMD: Optional extension XR_EXT_performance_settings is not available
+[2025.12.26-01.57.16:930][  0]LogOculusXRColocation: [Colocation] Extensions available
+[2025.12.26-01.57.16:930][  0]LogOculusXRColocation: 			   Colocation Discovery: ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRMovement: [Body Tracking] Extensions available: Tracking: ENABLED -- Full Body: ENABLED -- Fidelity: ENABLED -- Calibration: ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRScene: [SCENE] Extensions available
+[2025.12.26-01.57.16:930][  0]LogOculusXRScene: 			Scene:         ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRScene: 			Scene Capture: DISABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRScene: 			Boundary:	   ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRScene: 			Mesh:		   ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: [Anchors] Extensions available
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Spatial Entity: ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Container:		ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Query:			ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Sharing:		ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Storage:		ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Storage Batch:  ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Users:			ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Discovery:		ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Persistence:	ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Sharing Meta:	ENABLED
+[2025.12.26-01.57.16:930][  0]LogOculusXRAnchors: 			Group Sharing:	DISABLED
+[2025.12.26-01.57.16:957][  0]LogHMD: xrCreateInstance succeeded with XR_API_VERSION_1_0
+[2025.12.26-01.57.16:957][  0]LogHMD: xrCreateInstance created: 1
+[2025.12.26-01.57.16:957][  0]LogHMD: Initialized OpenXR on Oculus runtime version 1.115.0
+[2025.12.26-01.57.16:963][  0]LogRHI: Using Default RHI: D3D12
+[2025.12.26-01.57.16:963][  0]LogRHI: Using Highest Feature Level of D3D12: SM5
+[2025.12.26-01.57.16:963][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.12.26-01.57.16:963][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM5 is supported by your system.
+[2025.12.26-01.57.16:963][  0]LogRHI: RHI D3D12 with Feature Level SM5 is supported and will be used.
+[2025.12.26-01.57.16:963][  0]LogD3D12RHI: Integrated GPU (iGPU): false
+[2025.12.26-01.57.16:963][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM5
+[2025.12.26-01.57.16:964][  0]LogWindows: Attached monitors:
+[2025.12.26-01.57.16:964][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1020), device: '\\.\DISPLAY5' [PRIMARY]
+[2025.12.26-01.57.16:964][  0]LogWindows: Found 1 attached monitors.
+[2025.12.26-01.57.16:964][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.12.26-01.57.16:964][  0]LogRHI: RHI Adapter Info:
+[2025.12.26-01.57.16:964][  0]LogRHI:             Name: NVIDIA RTX 4500 Ada Generation
+[2025.12.26-01.57.16:964][  0]LogRHI:   Driver Version: 580.97 (internal:32.0.15.8097, unified:580.97)
+[2025.12.26-01.57.16:964][  0]LogRHI:      Driver Date: 8-7-2025
+[2025.12.26-01.57.16:964][  0]LogD3D12RHI:     GPU DeviceId: 0x27b1 (for the marketing name, search the web for "GPU Device Id")
+[2025.12.26-01.57.16:964][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.12.26-01.57.17:230][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.12.26-01.57.17:230][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.12.26-01.57.17:332][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.12.26-01.57.17:332][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Bindless resources are supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Raster order views are supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.12.26-01.57.17:332][  0]LogD3D12RHI: Work Graphs are supported
+[2025.12.26-01.57.17:395][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001BCF374E2C0)
+[2025.12.26-01.57.17:395][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001BCF374E580)
+[2025.12.26-01.57.17:395][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001BCF374E840)
+[2025.12.26-01.57.17:395][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.12.26-01.57.17:395][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.12.26-01.57.17:591][  0]LogD3D12RHI: NVIDIA Shader Execution Reordering interface supported!
+[2025.12.26-01.57.17:591][  0]LogD3D12RHI: Display: Batched command list execution is disabled for async queues due to known bugs in the current driver.
+[2025.12.26-01.57.17:591][  0]LogRHI: Texture pool is 14757 MB (70% of 21082 MB)
+[2025.12.26-01.57.17:591][  0]LogD3D12RHI: Async texture creation enabled
+[2025.12.26-01.57.17:591][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.12.26-01.57.17:600][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.12.26-01.57.17:602][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="D3D12"
+[2025.12.26-01.57.17:602][  0]LogCsvProfiler: Display: Metadata set : rhiname="D3D12"
+[2025.12.26-01.57.17:602][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM5"
+[2025.12.26-01.57.17:602][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM5"
+[2025.12.26-01.57.17:602][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.12.26-01.57.17:617][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyReport_0.log" -log="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyLog_0.log" -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject"  -platform=all'
+[2025.12.26-01.57.17:617][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/UnrealEngineMeta/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyReport_0.log" -log="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyLog_0.log" -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject"  -platform=all" ]
+[2025.12.26-01.57.17:691][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.12.26-01.57.17:691][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.12.26-01.57.17:691][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.12.26-01.57.17:691][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.12.26-01.57.17:691][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.12.26-01.57.17:691][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.12.26-01.57.17:691][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.12.26-01.57.17:691][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+[2025.12.26-01.57.17:697][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.12.26-01.57.17:701][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.12.26-01.57.17:782][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.12.26-01.57.17:798][  0]LogTargetPlatformManager: Failed to load module 'IOSTargetPlatform' for platform IOS (Reason=FileNotFound, AutoSDKPath='').
+[2025.12.26-01.57.17:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.12.26-01.57.17:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.12.26-01.57.17:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.12.26-01.57.17:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.12.26-01.57.17:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.12.26-01.57.17:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.12.26-01.57.17:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.12.26-01.57.17:865][  0]LogTargetPlatformManager: Failed to load module 'MacTargetPlatform' for platform Mac (Reason=FileNotFound, AutoSDKPath='').
+[2025.12.26-01.57.17:868][  0]LogTargetPlatformManager: Failed to load module 'TVOSTargetPlatform' for platform TVOS (Reason=FileNotFound, AutoSDKPath='').
+[2025.12.26-01.57.17:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.12.26-01.57.17:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.12.26-01.57.17:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.12.26-01.57.17:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.12.26-01.57.17:894][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2025.12.26-01.57.18:039][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2025.12.26-01.57.18:043][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.12.26-01.57.18:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../Unreal Project/ForkliftXR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.12.26-01.57.18:043][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Root.
+[2025.12.26-01.57.18:043][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2025.12.26-01.57.18:043][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchy Root.
+[2025.12.26-01.57.18:046][  0]LogZenServiceInstance: Found Zen config default=C:/Users/zuri.roslee/AppData/Local/UnrealEngine/Common/Zen/Data
+[2025.12.26-01.57.18:049][  0]LogZenServiceInstance: InTree version at 'D:/UnrealEngineMeta/Engine/Binaries/Win64/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.12.26-01.57.18:052][  0]LogZenServiceInstance: Installed version at 'C:/Users/zuri.roslee/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is '5.6.6-202504241958-windows-x64-release-f090a03'
+[2025.12.26-01.57.18:062][  0]LogZenServiceInstance: Found existing instance running on port 8558 matching our settings, no actions needed
+[2025.12.26-01.57.18:987][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.12.26-01.57.18:987][  0]LogZenServiceInstance: Local ZenServer AutoLaunch initialization completed in 0.940 seconds
+[2025.12.26-01.57.18:990][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.12.26-01.57.19:135][  0]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Speed tests took 0.14 seconds.
+[2025.12.26-01.57.19:135][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache: Performance: Latency=0.06ms. RandomReadSpeed=11.17MBs, RandomWriteSpeed=15.51MBs. Assigned SpeedClass 'Local'
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Local: Using data cache path ../../../Engine/DerivedDataCache: DeleteOnly
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: ZenShared: Disabled because Host is set to 'None'
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Unable to find inner node ZenShared for hierarchy Root.
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Root.
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2025.12.26-01.57.19:137][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Root.
+[2025.12.26-01.57.19:137][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../Unreal Project/ForkliftXR/Intermediate/Shaders/WorkingDirectory/28224/).
+[2025.12.26-01.57.19:138][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zuri.roslee/AppData/Local/Temp/UnrealShaderWorkingDir/2DCF065146AAF4F8953C079ECDF77A41/'.
+[2025.12.26-01.57.19:138][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2025.12.26-01.57.19:145][  0]LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+[2025.12.26-01.57.19:145][  0]LogShaderCompilers: Display: Using 16 local workers for shader compilation
+[2025.12.26-01.57.19:158][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../Unreal Project/ForkliftXR/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.12.26-01.57.19:165][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: ../../../../Unreal Project/ForkliftXR/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.12.26-01.57.19:167][  0]LogShaderCompilers: Display: Shader autogen file written: ../../../../Unreal Project/ForkliftXR/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.12.26-01.57.25:532][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2025.12.26-01.57.25:595][  0]LogSlate: Using FreeType 2.10.0
+[2025.12.26-01.57.25:611][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.12.26-01.57.25:671][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2025.12.26-01.57.25:674][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.12.26-01.57.25:681][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../Unreal Project/ForkliftXR/Intermediate/CachedAssetRegistry_*.bin.
+[2025.12.26-01.57.25:970][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.12.26-01.57.25:971][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.12.26-01.57.26:002][  0]LogDeviceProfileManager: Active device profile: [000001BD075C0500][000001BCCFD7A000 66] WindowsEditor
+[2025.12.26-01.57.26:002][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.12.26-01.57.26:005][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.26-01.57.26:039][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2025.12.26-01.57.26:039][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.12.26-01.57.26:039][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Valid, MinAllowed_Sdk=r25b, MaxAllowed_Sdk=r29, Current_Sdk=r25b, Allowed_AutoSdk=r25b, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Support_FullSdk, Sdk_HasBestVersion")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, MinAllowed_Sdk=1100.0.0.0, MaxAllowed_Sdk=8999.0, Current_Sdk=, Allowed_AutoSdk=15.2, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Allowed_Sdk=v25_clang-18.1.0-rockylinux8, Current_Sdk=, Allowed_AutoSdk=v25_clang-18.1.0-rockylinux8, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Allowed_Sdk=v25_clang-18.1.0-rockylinux8, Current_Sdk=, Allowed_AutoSdk=v25_clang-18.1.0-rockylinux8, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: Mac: (Status=Invalid, MinAllowed_Sdk=1100.0.0.0, MaxAllowed_Sdk=8999.0, Current_Sdk=, Allowed_AutoSdk=15.2, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: TVOS: (Status=Invalid, MinAllowed_Sdk=1100.0.0.0, MaxAllowed_Sdk=8999.0, Current_Sdk=, Allowed_AutoSdk=15.2, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: VisionOS: (Status=Invalid, , Flags="Host_Unsupported")
+[2025.12.26-01.57.26:229][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.12.26-01.57.26:243][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyReport_1.log" -log="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyLog_1.log" -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject"  -Device=Win64@AC25-D164'
+[2025.12.26-01.57.26:243][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/UnrealEngineMeta/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyReport_1.log" -log="D:/Unreal Project/ForkliftXR/Intermediate/TurnkeyLog_1.log" -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject"  -Device=Win64@AC25-D164" -nocompile -nocompileuat ]
+[2025.12.26-01.57.26:488][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:503][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.12.26-01.57.26:503][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:503][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:516][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.12.26-01.57.26:516][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:516][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:584][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.12.26-01.57.26:585][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.12.26-01.57.26:588][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.12.26-01.57.26:588][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:604][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:616][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:681][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.12.26-01.57.26:681][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.12.26-01.57.26:683][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.12.26-01.57.26:683][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:828][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: c99f2ff08e9f1bedb271425cd223e71498c118eb), compiling. 
+[2025.12.26-01.57.26:830][  0]LogShaderCompilers: Warning: Multiview rendering is not supported for PCD3D_SM5 shader platform.
+[2025.12.26-01.57.26:882][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.12.26-01.57.26:882][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.26:928][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 1446406176d3faae17c4f01850352d61779c30f9), compiling. 
+[2025.12.26-01.57.26:986][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.12.26-01.57.26:986][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.27:016][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 8cb288a3f2894cb2952853a5768f6b51da8a4023), compiling. 
+[2025.12.26-01.57.27:185][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.12.26-01.57.27:185][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.12.26-01.57.27:566][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM5, Default, SM5, Editor (DDC key hash: 60fcd7559f30f96dac6f1f1c8e829ec2fffef5e4), compiling. Is special engine material.
+[2025.12.26-01.57.28:627][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.12.26-01.57.28:627][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.12.26-01.57.28:627][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.12.26-01.57.28:627][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.12.26-01.57.28:627][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.12.26-01.57.30:827][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2025.12.26-01.57.32:338][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.12.26-01.57.32:437][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.12.26-01.57.32:472][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.12.26-01.57.32:472][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.12.26-01.57.32:473][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.12.26-01.57.32:473][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.12.26-01.57.32:519][  0]LogSlate: Border
+[2025.12.26-01.57.32:519][  0]LogSlate: BreadcrumbButton
+[2025.12.26-01.57.32:519][  0]LogSlate: Brushes.Title
+[2025.12.26-01.57.32:519][  0]LogSlate: ColorPicker.ColorThemes
+[2025.12.26-01.57.32:519][  0]LogSlate: Default
+[2025.12.26-01.57.32:519][  0]LogSlate: Icons.Save
+[2025.12.26-01.57.32:519][  0]LogSlate: Icons.Toolbar.Settings
+[2025.12.26-01.57.32:519][  0]LogSlate: ListView
+[2025.12.26-01.57.32:519][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.12.26-01.57.32:519][  0]LogSlate: SoftwareCursor_Grab
+[2025.12.26-01.57.32:519][  0]LogSlate: TableView.DarkRow
+[2025.12.26-01.57.32:519][  0]LogSlate: TableView.Row
+[2025.12.26-01.57.32:519][  0]LogSlate: TreeView
+[2025.12.26-01.57.32:722][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.12.26-01.57.32:722][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.12.26-01.57.32:724][  0]LogLiveCoding: Display: First instance in process group "UE_ForkliftXR_0x634f4c2b", spawning console
+[2025.12.26-01.57.32:775][  0]LogLiveCoding: Display: Waiting for server
+[2025.12.26-01.57.32:905][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.12.26-01.57.32:907][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.168 ms
+[2025.12.26-01.57.32:962][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.12.26-01.57.32:962][  0]LogInit: XR: MultiViewport is Disabled
+[2025.12.26-01.57.32:962][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.12.26-01.57.33:016][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.12.26-01.57.33:048][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.12.26-01.57.33:055][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.12.26-01.57.33:055][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.12.26-01.57.33:056][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:51544'.
+[2025.12.26-01.57.33:059][  0]LogUdpMessaging: Display: Added local interface '10.10.150.107' to multicast group '230.0.0.1:6666'
+[2025.12.26-01.57.33:062][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.12.26-01.57.33:455][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.12.26-01.57.33:567][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: F0F55F096F9C49E48000000000004900 | Instance: 712DB0734CD4DC5BB507D1BA78B9C240 (AC25-D164-28224).
+[2025.12.26-01.57.34:412][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.12.26-01.57.34:412][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) UHD Graphics 770
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT: Interface availability:
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   GPU: yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   RDG: yes
+[2025.12.26-01.57.34:874][  0]LogNNERuntimeORT:   NPU: yes
+[2025.12.26-01.57.35:100][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.12.26-01.57.35:334][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.12.26-01.57.35:334][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) UHD Graphics 770
+[2025.12.26-01.57.35:917][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.12.26-01.57.35:918][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.12.26-01.57.35:932][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.12.26-01.57.36:151][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.26-01.57.36:151][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.26-01.57.36:162][  0]LogTimingProfiler: Initialize
+[2025.12.26-01.57.36:162][  0]LogTimingProfiler: OnSessionChanged
+[2025.12.26-01.57.36:162][  0]LoadingProfiler: Initialize
+[2025.12.26-01.57.36:162][  0]LoadingProfiler: OnSessionChanged
+[2025.12.26-01.57.36:162][  0]LogNetworkingProfiler: Initialize
+[2025.12.26-01.57.36:162][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.12.26-01.57.36:162][  0]LogMemoryProfiler: Initialize
+[2025.12.26-01.57.36:162][  0]LogMemoryProfiler: OnSessionChanged
+[2025.12.26-01.57.36:264][  0]SourceControl: Revision control is disabled
+[2025.12.26-01.57.36:290][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.12.26-01.57.36:290][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.12.26-01.57.36:290][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.12.26-01.57.36:290][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.12.26-01.57.36:313][  0]SourceControl: Revision control is disabled
+[2025.12.26-01.57.37:669][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.12.26-01.57.37:687][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.12.26-01.57.37:719][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.12.26-01.57.37:719][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.12.26-01.57.38:107][  0]LogTemp: OpenXR ignores max viewport resolution in editor to support full HMD resolutions.
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Enabled Package for Meta Quest devices.
+The following settings have been applied:
+
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Support arm64: 1.
+
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Support Vulkan: 1.
+
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Support x86_64: 0.
+
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Support Vulkan Desktop: 0.
+
+[2025.12.26-01.57.38:203][  0]LogAndroidRuntimeSettings: Display: Support OpenGL ES3.2: 0.
+[2025.12.26-01.57.38:212][  0]LogTurnkeySupport: Turnkey Device: Win64@AC25-D164: (Name=AC25-D164, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.12.26-01.57.38:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.12.26-01.57.38:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.12.26-01.57.38:334][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.12.26-01.57.38:334][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.12.26-01.57.38:368][  0]LogTemp: Warning: Existing value for UEditorPerformanceSettings::MaxViewportRenderingResolution will be overriden.
+[2025.12.26-01.57.38:368][  0]LogTemp: MetaXR ignores max viewport resolution in editor to support full HMD resolutions.
+[2025.12.26-01.57.38:398][  0]LogCollectionManager: Loaded 0 collections in 0.000683 seconds
+[2025.12.26-01.57.38:402][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Project/ForkliftXR/Saved/Collections/' took 0.00s
+[2025.12.26-01.57.38:405][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Project/ForkliftXR/Content/Developers/zuriroslee/Collections/' took 0.00s
+[2025.12.26-01.57.38:409][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Project/ForkliftXR/Content/Collections/' took 0.00s
+[2025.12.26-01.57.38:609][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.12.26-01.57.38:609][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.12.26-01.57.38:609][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.12.26-01.57.38:609][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.12.26-01.57.38:637][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-12-26T01:57:38.637Z using C
+[2025.12.26-01.57.38:641][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.5074.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=ForkliftXR, ProductVersion=oculus-5.6.0-release-1.113.0-v81.0-CL-0, IsServer=false, Flags=DisableOverlay]
+[2025.12.26-01.57.38:642][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.12.26-01.57.38:642][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.12.26-01.57.38:647][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.12.26-01.57.38:647][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.12.26-01.57.38:647][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.12.26-01.57.38:647][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000054
+[2025.12.26-01.57.38:711][  0]LogUObjectArray: 44534 objects as part of root set at end of initial load.
+[2025.12.26-01.57.38:711][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.12.26-01.57.38:828][  0]LogEngine: Initializing Engine...
+[2025.12.26-01.57.38:971][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2025.12.26-01.57.38:972][  0]LogHMD: Initializing OVRPlugin session
+[2025.12.26-01.57.38:972][  0]LogOculusPluginWrapper: Warning: wrapper already initialized
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display: CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x50)
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display: Support Non-Oculus runtime: NO
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display: Use Alpha Blend Factors: NO
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display: RetryHMDConnection: NO
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display:  -- Set xrGetInstanceProcAddr to OpenXR Loader
+[2025.12.26-01.57.38:972][  0]LogOVRPlugin: Display: Warning: xrGetInstanceProcAddr has already been set
+[2025.12.26-01.57.39:212][  0]LogOVRPlugin: Display: Available Extensions: (85)
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D11_enable SpecVersion=10
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D12_enable SpecVersion=10
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_opengl_enable SpecVersion=11
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable SpecVersion=9
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable2 SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_depth SpecVersion=6
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_convert_timespec_time SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cube SpecVersion=8
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_equirect SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_visibility_mask SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_debug_utils SpecVersion=5
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_recenter_event SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_audio_device_guid SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_color_space SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_display_refresh_rate SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_performance_metrics SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_headset_id SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_ovrsession_handle SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_interaction SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking SpecVersion=4
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_aim SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking_data_source SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_hand_tracking_microgestures SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXTX2_stationary_reference_space SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_body_tracking SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_full_body SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_fidelity SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_calibration SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_passthrough SpecVersion=4
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_layer_resumed_event SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_triangle_mesh SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_color_lut SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_preferences SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_render_model SpecVersion=4
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_container SpecVersion=2
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_scene SpecVersion=4
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity SpecVersion=3
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_query SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_user SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage_batch SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_persistence SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_discovery SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_group_sharing SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_mesh SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_room_mesh SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_METAX1_spatial_entity_marker SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_entity SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_anchor SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence_operations SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_plane_tracking SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_marker_tracking SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_boundary_visibility SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_colocation_discovery SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_METAX1_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_keyboard SpecVersion=1
+[2025.12.26-01.57.39:213][  0]LogOVRPlugin: Display:  Name=XR_META_environment_depth SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_META_environment_raycast SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_META_virtual_keyboard SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXT_local_floor SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXT_active_action_set_priority SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXT_future SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_pcm SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_pro SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_META_touch_controller_plus SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_proximity SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_external_camera SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_META_detached_controllers SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_FBX1_touch_controller_extras SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXT_palm_pose SpecVersion=3
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXT_eye_gaze_interaction SpecVersion=2
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display:  Name=XR_EXTX1_haptic_parametric SpecVersion=1
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_performance_settings
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_configuration
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_vulkan
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_composition_layer_image_layout
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_common_events
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_keyboard_tracking
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_hand_joints_motion_range
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_hand_tracking_wide_motion_mode
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking2
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_face_tracking_visemes
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_eye_tracking_social
+[2025.12.26-01.57.39:214][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_MSFT_hand_interaction
+[2025.12.26-01.57.39:215][  0]LogOVRPlugin: Display: Available Layers: (0)
+[2025.12.26-01.57.39:219][  0]LogOVRPlugin: Display: Preinitialize: xrCreateInstance() succeeded
+[2025.12.26-01.57.39:219][  0]LogOVRPlugin: Display: OpenXR runtime name: Oculus, version 1.115.0
+[2025.12.26-01.57.39:219][  0]LogOVRPlugin: Display: OpenXR runtime supports XR_META_headset_id extension
+[2025.12.26-01.57.39:219][  0]LogOVRPlugin: Display: xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed
+[2025.12.26-01.57.39:226][  0]LogHMD: Failed initializing OVRPlugin 1.113.0
+[2025.12.26-01.57.39:226][  0]LogHMD: HMD initialization failed
+[2025.12.26-01.57.39:226][  0]LogHMD: Oculus plugin initialized. Version: OVRPlugin: 1.113.0
+[2025.12.26-01.57.39:234][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.12.26-01.57.39:234][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.12.26-01.57.39:516][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.12.26-01.57.39:559][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.12.26-01.57.39:579][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.12.26-01.57.39:596][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.12.26-01.57.39:597][  0]LogInit: Texture streaming: Enabled
+[2025.12.26-01.57.39:614][  0]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.0-0+oculus-5.6.0-release-1.113.0-v81.0 )
+[2025.12.26-01.57.39:626][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.12.26-01.57.39:638][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.12.26-01.57.39:642][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.26-01.57.39:644][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.26-01.57.39:644][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.26-01.57.39:661][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.26-01.57.39:716][  0]LogAudioMixer: Display: Using Audio Hardware Device SAMSUNG (2- HD Audio Driver for Display Audio)
+[2025.12.26-01.57.39:716][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.26-01.57.39:736][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.26-01.57.39:736][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.26-01.57.39:737][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.12.26-01.57.39:737][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.12.26-01.57.39:739][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.12.26-01.57.39:739][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.12.26-01.57.39:739][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.12.26-01.57.39:740][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.12.26-01.57.39:740][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.12.26-01.57.39:748][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.12.26-01.57.39:771][  0]LogInit: Undo buffer set to 256 MB
+[2025.12.26-01.57.39:771][  0]LogInit: Transaction tracking system initialized
+[2025.12.26-01.57.39:879][  0]LocalizationService: Localization service is disabled
+[2025.12.26-01.57.40:198][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Project/ForkliftXR/Content/' took 0.01s
+[2025.12.26-01.57.40:223][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2025.12.26-01.57.40:314][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.12.26-01.57.40:314][  0]LogPython: Using Python 3.11.8
+[2025.12.26-01.57.40:396][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.12.26-01.57.40:882][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.12.26-01.57.41:009][  0]LogProjectSetupTool: Display: StartupModule: OculusXRProjectSetupTool
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_UseVulkan>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_UseHalfPrecisionFloat>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableInstancedStereo>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableForwardShading>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnablePCForwardShading>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableMSAA>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableOcclusionCulling>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableDynamicFoveation>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableDynamicResolution>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_MobileUniformLocalLights>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableEmulatedUniformBuffers>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_MobileGPUScene>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_DisableLensFlare>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_DisablePostProcessing>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_DisableAmbientOcclusion>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableMultiView>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_EnableStaticLighting>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_MobileShaderStaticAndCSMShadowReceivers>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_MobileShaderAllowDistanceFieldShadows>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Rendering_UseAndroidVulkanPreviewPlatform>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Plugin_UseRecommendedXRAPI>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Plugin_DisableOculusVR>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Plugin_DisableSteamVR>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Plugin_UseHorizonOSSDK>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UseAndroidSDKMinimum>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UseAndroidSDKTarget>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UseAndroidSDKLevel>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UseAndroidNDKLevel>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UseArm64CPU>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UsePackageForMetaQuest>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UsePackageForQuest2>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UsePackageForQuestPro>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_UsePackageForQuest3>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_EnableFullscreen>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_EnableStartInVR>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Compatibility_DisableTouchInterface>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnablePassthrough>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_AllowAlphaToneMapperPassthrough>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnableBodyTracking>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnableFaceTracking>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnableEyeTracking>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnableAnchorSupport>
+[2025.12.26-01.57.41:016][  0]LogProjectSetupTool: Display: RegisterRule: added rule with id <Feature_EnableSceneSupport>
+[2025.12.26-01.57.41:038][  0]LogEditorDataStorage: Initializing
+[2025.12.26-01.57.41:042][  0]LogEditorDataStorage: Initialized
+[2025.12.26-01.57.41:053][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.12.26-01.57.41:112][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.12.26-01.57.41:129][  0]SourceControl: Revision control is disabled
+[2025.12.26-01.57.41:129][  0]LogUnrealEdMisc: Loading editor; pre map load, took 36.414
+[2025.12.26-01.57.41:179][  0]Cmd: MAP LOAD FILE="../../../../Unreal Project/ForkliftXR/Content/Passthrough/Maps/PTStartup.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2025.12.26-01.57.41:183][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.12.26-01.57.41:183][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.26-01.57.41:227][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.26-01.57.41:229][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.12.26-01.57.41:358][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.12.26-01.57.41:475][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'PTStartup'.
+[2025.12.26-01.57.41:475][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world PTStartup
+[2025.12.26-01.57.41:507][  0]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetPlayerCameraManager_ReturnValue in not an UClass
+	SplashScreenManager_C /Game/Passthrough/Maps/PTStartup.PTStartup:PersistentLevel.SplashScreenManager_C_2
+	Function /Game/Passthrough/Blueprints/Core/SplashScreenManager.SplashScreenManager_C:UpdateWidgetTransform:00B6
+[2025.12.26-01.57.41:513][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.26-01.57.41:531][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.12.26-01.57.41:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.26-01.57.41:531][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.055ms to complete.
+[2025.12.26-01.57.41:546][  0]LogUnrealEdMisc: Total Editor Startup Time, took 36.831
+[2025.12.26-01.57.41:690][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.12.26-01.57.41:919][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.26-01.57.41:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.26-01.57.42:040][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.26-01.57.42:097][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.26-01.57.42:231][  0]LogAssetRegistry: Display: Asset registry cache written as 68.5 MiB to ../../../../Unreal Project/ForkliftXR/Intermediate/CachedAssetRegistry_*.bin
+[2025.12.26-01.57.42:464][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:472][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:476][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:480][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_BlankBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:480][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:485][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:486][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:491][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:491][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:496][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_Puzzle.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:497][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:501][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_PuzzleBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:501][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:506][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:507][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:511][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:513][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:518][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:518][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:524][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:524][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:528][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_VehicleAdv.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:529][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:534][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.42:534][  0]LogPakFile: Initializing PakPlatformFile
+[2025.12.26-01.57.42:539][  0]LogPakFile: Display: Mounted Pak file 'D:/UnrealEngineMeta/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.12.26-01.57.43:416][  0]LogSlate: Took 0.008558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.12.26-01.57.43:435][  0]LogSlate: Took 0.009359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.12.26-01.57.43:443][  0]LogSlate: Took 0.006934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.12.26-01.57.46:108][  0]LogStall: Startup...
+[2025.12.26-01.57.46:112][  0]LogStall: Startup complete.
+[2025.12.26-01.57.46:173][  0]LogLoad: (Engine Initialization) Total time: 41.46 seconds
+[2025.12.26-01.57.46:184][  0]LogOculusPluginWrapper: Warning: wrapper already initialized
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display: CompositorOpenXR::PreInitialize(activity = 0000000000000000, apiType = 0, preinitializeFlags=0x50)
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display: Support Non-Oculus runtime: NO
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display: Use Alpha Blend Factors: NO
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display: RetryHMDConnection: NO
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display:  -- Set xrGetInstanceProcAddr to OpenXR Loader
+[2025.12.26-01.57.46:184][  0]LogOVRPlugin: Display: Warning: xrGetInstanceProcAddr has already been set
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display: Available Extensions: (85)
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D11_enable SpecVersion=10
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display:  Name=XR_KHR_D3D12_enable SpecVersion=10
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display:  Name=XR_KHR_opengl_enable SpecVersion=11
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable SpecVersion=9
+[2025.12.26-01.57.46:429][  0]LogOVRPlugin: Display:  Name=XR_KHR_vulkan_enable2 SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_depth SpecVersion=6
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_win32_convert_performance_counter_time SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_convert_timespec_time SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cube SpecVersion=8
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_cylinder SpecVersion=4
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_equirect SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_visibility_mask SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_KHR_composition_layer_color_scale_bias SpecVersion=5
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_win32_appcontainer_compatible SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_debug_utils SpecVersion=5
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_recenter_event SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_audio_device_guid SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_color_space SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_display_refresh_rate SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_performance_metrics SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_headset_id SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_ovrsession_handle SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_interaction SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking SpecVersion=4
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_aim SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_capsules SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_hand_tracking_mesh SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_hand_tracking_data_source SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_hand_tracking_microgestures SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_simultaneous_hands_and_controllers SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXTX2_stationary_reference_space SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_body_tracking SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_full_body SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_fidelity SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_body_tracking_calibration SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_passthrough SpecVersion=4
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_layer_resumed_event SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_triangle_mesh SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_color_lut SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_passthrough_preferences SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_render_model SpecVersion=4
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_container SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_scene SpecVersion=4
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_query SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_user SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_storage_batch SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_persistence SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_discovery SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_group_sharing SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_mesh SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_room_mesh SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_spatial_entity_sharing SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_METAX1_spatial_entity_marker SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_entity SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_anchor SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_persistence_operations SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_plane_tracking SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_spatial_marker_tracking SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_boundary_visibility SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_colocation_discovery SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_METAX1_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_tracker SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_dynamic_object_keyboard SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_environment_depth SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_environment_raycast SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_virtual_keyboard SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_local_floor SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_active_action_set_priority SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_future SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_amplitude_envelope SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_haptic_pcm SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_pro SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_touch_controller_plus SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FB_touch_controller_proximity SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_OCULUS_external_camera SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_META_detached_controllers SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_LOGITECH_mx_ink_stylus_interaction SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_FBX1_touch_controller_extras SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_palm_pose SpecVersion=3
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXT_eye_gaze_interaction SpecVersion=2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display:  Name=XR_EXTX1_haptic_parametric SpecVersion=1
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_performance_settings
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_swapchain_update_state_vulkan
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_configuration
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_foveation_vulkan
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_vulkan_swapchain_create_info
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_foveation_eye_tracked
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_composition_layer_image_layout
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_KHR_composition_layer_equirect2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_passthrough_keyboard_hands
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_common_events
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_keyboard_tracking
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_EXT_hand_joints_motion_range
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_hand_tracking_wide_motion_mode
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_face_tracking2
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_META_face_tracking_visemes
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_FB_eye_tracking_social
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Unavailable OpenXR extension: XR_MSFT_hand_interaction
+[2025.12.26-01.57.46:430][  0]LogOVRPlugin: Display: Available Layers: (0)
+[2025.12.26-01.57.46:434][  0]LogOVRPlugin: Display: Preinitialize: xrCreateInstance() succeeded
+[2025.12.26-01.57.46:434][  0]LogOVRPlugin: Display: OpenXR runtime name: Oculus, version 1.115.0
+[2025.12.26-01.57.46:435][  0]LogOVRPlugin: Display: OpenXR runtime supports XR_META_headset_id extension
+[2025.12.26-01.57.46:435][  0]LogOVRPlugin: Display: xrGetSystem() failed, which might be caused by a temporarly HMD connectivity issue. xrInstance to be destroyed
+[2025.12.26-01.57.46:441][  0]LogHMD: Failed initializing OVRPlugin 1.113.0
+[2025.12.26-01.57.46:441][  0]LogOcInput: OculusXRInput is initialized
+[2025.12.26-01.57.47:582][  0]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.UnrealEngine.Release SessionId={F0AD681D-4D2C-A6F6-699C-D29E7CEFA8F4}
+[2025.12.26-01.57.47:655][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.12.26-01.57.47:655][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.12.26-01.57.47:687][  0]LogSlate: Took 0.007581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.12.26-01.57.47:760][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.26-01.57.47:761][  0]LogPython: Display: Running start-up script D:/UnrealEngineMeta/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.12.26-01.57.47:977][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.12.26-01.57.47:980][  0]LogPython: Display: Running start-up script D:/UnrealEngineMeta/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 218.898 ms
+[2025.12.26-01.57.48:281][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal Project/ForkliftXR/Content/' took 0.70s
+[2025.12.26-01.57.48:282][  1]LogAssetRegistry: AssetRegistryGather time 6.8738s: AssetDataDiscovery 0.0908s, AssetDataGather 6.7356s, StoreResults 0.0474s. Wall time 22.6130s.
+	NumCachedDirectories 0. NumUncachedDirectories 1538. NumCachedFiles 0. NumUncachedFiles 7627.
+	BackgroundTickInterruptions 0.
+[2025.12.26-01.57.48:303][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.12.26-01.57.48:310][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
+[2025.12.26-01.57.48:311][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.12.26-01.57.48:390][  1]LogSourceControl: Uncontrolled asset discovery finished in 0.07805 seconds (Found 7603 uncontrolled assets)
+[2025.12.26-01.57.49:468][ 99]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 10.811865
+[2025.12.26-01.57.49:469][ 99]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.12.26-01.57.49:472][ 99]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10.820278
+[2025.12.26-01.57.49:819][134]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.12.26-01.57.50:115][169]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 11.458579
+[2025.12.26-01.57.50:118][169]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1164040915
+[2025.12.26-01.57.50:118][169]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11.458579, Update Interval: 330.929291
+[2025.12.26-01.58.02:435][533]LogSlate: Took 0.007134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.12.26-01.58.05:520][844]Running D:/UnrealEngineMeta/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" -game -engine -progress
+[2025.12.26-01.58.05:764][844]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2025.12.26-01.58.07:873][844]Building UnrealBuildTool...
+[2025.12.26-01.58.10:084][844]
+[2025.12.26-01.58.10:084][844]Build succeeded.
+[2025.12.26-01.58.10:084][844]    0 Warning(s)
+[2025.12.26-01.58.10:084][844]    0 Error(s)
+[2025.12.26-01.58.10:084][844]
+[2025.12.26-01.58.10:084][844]Time Elapsed 00:00:01.97
+[2025.12.26-01.58.10:084][844]Publishing UnrealBuildTool...
+[2025.12.26-01.58.11:390][844]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/Unreal Project/ForkliftXR/ForkliftXR.uproject" -game -engine -progress
+[2025.12.26-01.58.12:195][844]Log file: D:\UnrealEngineMeta\Engine\Programs\UnrealBuildTool\Log_GPF.txt
+[2025.12.26-01.58.12:998][844]
+[2025.12.26-01.58.12:998][844]Some Platforms were skipped due to invalid SDK setup: Mac, IOS, Linux, LinuxArm64, TVOS.
+[2025.12.26-01.58.12:998][844]See the log file for detailed information
+[2025.12.26-01.58.12:998][844]
+[2025.12.26-01.58.12:998][844]
+[2025.12.26-01.58.12:998][844]Generating VisualStudio project files:
+[2025.12.26-01.58.12:998][844]Discovering modules, targets and source code for project...
+[2025.12.26-01.58.13:601][844]Adding projects for all targets...
+[2025.12.26-01.58.17:923][844]Adding projects for all targets took 4.33s
+[2025.12.26-01.58.17:923][844]Adding projects for all game projects took 0.00s
+[2025.12.26-01.58.20:636][844]Adding projects for all modules took 2.57s
+[2025.12.26-01.58.21:038][844]Compiling Rules Assemblies
+[2025.12.26-01.58.21:039][844]Compiling Rules Assemblies 100%
+[2025.12.26-01.58.21:039][844]Creating Build Targets
+[2025.12.26-01.58.23:050][844]Creating Build Targets 100%
+[2025.12.26-01.58.23:050][844]Creating Build Targets took 1.96s
+[2025.12.26-01.58.23:050][844]Binding IntelliSense data...
+[2025.12.26-01.58.33:251][844]Binding IntelliSense data... 67%
+[2025.12.26-01.58.33:755][844]Binding IntelliSense data... 100%
+[2025.12.26-01.58.33:755][844]Binding IntelliSense data took 10.69s
+[2025.12.26-01.58.33:755][844]Writing project files...
+[2025.12.26-01.58.35:067][844]Writing project files... 100%
+[2025.12.26-01.58.35:067][844]Writing project files took 1.34s
+[2025.12.26-01.58.35:067][844]
+[2025.12.26-01.58.35:067][844]Generating QueryTargets data for editor...
+[2025.12.26-01.58.35:067][844]Compiling Rules Assemblies
+[2025.12.26-01.58.35:067][844]Compiling Rules Assemblies 100%
+[2025.12.26-01.58.35:067][844]Writing Query Target Info
+[2025.12.26-01.58.35:268][844]Writing Query Target Info 100%
+[2025.12.26-01.58.35:268][844]Generating QueryTargets data for editor took 0.17s
+[2025.12.26-01.58.35:268][844]
+[2025.12.26-01.58.35:268][844]Result: Succeeded
+[2025.12.26-01.58.35:268][844]Total execution time: 23.73 seconds
+[2025.12.26-01.58.40:594][844]LogSlate: Window 'Message' being destroyed
+[2025.12.26-01.58.40:602][844]Message dialog closed, result: Ok, title: Message, text: Project now includes sources, please close the editor and build from your IDE.
+[2025.12.26-01.58.42:300][844]LogSlate: Window 'Message' being destroyed
+[2025.12.26-01.58.42:307][844]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'MyClass', however you must recompile the 'ForkliftXR' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2025.12.26-01.58.42:696][844]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.12.26-01.58.45:467][851]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.12.26-01.58.45:470][851]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.12.26-01.58.45:481][852]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.12.26-01.58.45:484][852]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2025.12.26-01.59.19:140][887]LogDerivedDataCache: ../../../Engine/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.26-02.01.46:963][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.12.26-02.01.47:031][480]LogStall: Shutdown...
+[2025.12.26-02.01.47:031][480]LogStall: Shutdown complete.
+[2025.12.26-02.01.47:095][480]LogSlate: Window 'ForkliftXR - Unreal Editor' being destroyed
+[2025.12.26-02.01.47:097][480]LogWindowsTextInputMethodSystem: Activated input method: English (Malaysia) - (Keyboard).
+[2025.12.26-02.01.47:426][480]Cmd: QUIT_EDITOR
+[2025.12.26-02.01.47:426][481]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.26-02.01.47:436][481]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.26-02.01.47:437][481]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.26-02.01.47:437][481]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.26-02.01.47:437][481]LogWorld: UWorld::CleanupWorld for PTStartup, bSessionEnded=true, bCleanupResources=true
+[2025.12.26-02.01.47:439][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.26-02.01.47:462][481]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.26-02.01.47:462][481]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.12.26-02.01.47:463][481]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.26-02.01.47:467][481]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.12.26-02.01.47:468][481]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.26-02.01.47:478][481]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.UnrealEngine.Release SessionId={D2E2FFD0-4A5F-3B10-A1AD-AC82B3A0A9A9}
+[2025.12.26-02.01.47:485][481]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] AnalyticsET::EndSession
+[2025.12.26-02.01.47:487][481]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.26-02.01.47:487][481]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.26-02.01.47:487][481]LogAudio: Display: Audio Device unregistered from world 'PTStartup'.
+[2025.12.26-02.01.47:487][481]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.26-02.01.47:487][481]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.12.26-02.01.47:490][481]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.12.26-02.01.47:501][481]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.26-02.01.47:501][481]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.26-02.01.47:504][481]LogExit: Preparing to exit.
+[2025.12.26-02.01.47:548][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.12.26-02.01.48:510][481]LogEditorDataStorage: Deinitializing
+[2025.12.26-02.01.48:603][481]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.26-02.01.48:617][481]LogExit: Editor shut down
+[2025.12.26-02.01.48:619][481]LogExit: Transaction tracking system shut down
+[2025.12.26-02.01.48:670][481]LogExit: Object subsystem successfully closed.
+[2025.12.26-02.01.48:765][481]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.26-02.01.48:807][481]LogMemoryProfiler: Shutdown
+[2025.12.26-02.01.48:807][481]LogNetworkingProfiler: Shutdown
+[2025.12.26-02.01.48:807][481]LoadingProfiler: Shutdown
+[2025.12.26-02.01.48:807][481]LogTimingProfiler: Shutdown
+[2025.12.26-02.01.48:807][481]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.26-02.01.48:807][481]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.26-02.01.49:323][481]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.26-02.01.49:653][481]LogOculusXRTelemetry: Engine Telemetry plugin destroyed successfully
+[2025.12.26-02.01.49:654][481]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.26-02.01.49:654][481]LogOculusPluginWrapper: OculusPlugin destroyed successfully
+[2025.12.26-02.01.49:678][481]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.26-02.01.49:678][481]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2E2FFD0-4A5F-3B10-A1AD-AC82B3A0A9A9%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=5.6.0-0%2Boculus-5.6.0-release-1.113.0-v81.0&UserID=c4234d5f4fd028b4f81971a63de37ee9%7C1bf291dd321b4262aec141a704b11ffe%7C927bb2a3-430a-4353-9f50-d93a7d113893&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.26-02.01.50:708][481]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.26-02.01.50:708][481]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.26-02.01.50:708][481]RenderDocPlugin: plugin has been unloaded.
+[2025.12.26-02.01.50:710][481]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.26-02.01.50:710][481]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.26-02.01.50:710][481]LogPakFile: Destroying PakPlatformFile
+[2025.12.26-02.01.50:851][481]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.26-02.01.50:965][481]LogExit: Exiting.
+[2025.12.26-02.01.51:031][481]Log file closed, 12/26/25 10:01:51
